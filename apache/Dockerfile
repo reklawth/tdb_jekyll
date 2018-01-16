@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINAINER Thomas Walker "thwalker@vt.edu"
+MAINTAINER Thomas Walker "thwalker@vt.edu"
 ENV REFRESHED_AT 2018-01-15
 
 RUN apt-get -yqq update

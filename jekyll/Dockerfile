@@ -8,6 +8,6 @@ RUN gem install jekyll -v 2.5.3
 
 VOLUME /data
 VOLUME /var/www/html
-VOLUME /data
+WORKDIR /data
 
 ENTRYPOINT [ "jekyll", "build", "--destination=/var/www/html" ]
